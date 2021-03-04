@@ -97,7 +97,7 @@ else:
         intro = 'This isn\'t actually an interactive shell\n Ctrl+D to exit.'
         prompt = prompt
         def default(self, line):
-            print(runCommand(line+crlf))
+            print(runCommand(line))
            #     return
 
         def do_EOF(self, line):
